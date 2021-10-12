@@ -72,10 +72,7 @@ The instance class you choose must support the needed PostgreSQL version: https:
 |GitLab database name
 (`DBName`)|`gitlab`|Name of the GitLab Postgres database.|Praefect database name
 (`DBPraefectName`)|`praefect`|Name of the Praefect Postgres database.|Database admin username
-(`DBUserName`)|`gitlab`|The database admin account username.|Database admin password
-(`DBUserPassword`)|`**__Requires input__**`|The database admin account password.
-Minimum 8 characters. Must include 1 uppercase, 1 lowercase, 1 number, 1 (non / @ " ') symbol.
-|Database port
+(`DBUserName`)|`gitlab`|The database admin account username.|Database port
 (`DBPort`)|`5432`|The port the instance will listen for connections on.
 |===
 .GitLab cache configuration
